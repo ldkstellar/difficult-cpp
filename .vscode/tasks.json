@@ -10,8 +10,6 @@
 				"-fansi-escape-codes",
 				"-g",
 				"${file}",
-				"a.cpp",
-				"b.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
