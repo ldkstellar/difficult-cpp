@@ -2,8 +2,6 @@
 #include "b.h"
 #include <iostream>
 int main(int argc, char const *argv[]) {
-  counter = 100;
-
   std::cout << "initial counter: " << counter << std::endl;
   increase();
   increase();

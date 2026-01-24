@@ -1,6 +1,7 @@
 #include "a.h"
+#include "b.h"
 #include <iostream>
 void printCounter() {
-  std::cout << "counter in printCounter() " << counter << std::endl;
   counter--;
+  std::cout << "counter in printCounter() " << counter << std::endl;
 }
